@@ -1,0 +1,27 @@
+.titleBar__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(120deg, var(--dark), var(--darker));
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px var(--shadow);
+}
+
+.titleBar__wrap h4 {
+  color: var(--primary);
+  font-weight: 600;
+  margin: 0;
+}
+
+.titleBar__wrap h6 {
+  color: var(--contrast);
+  font-weight: 400;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: var(--primary);
+  border-radius: 2px;
+}

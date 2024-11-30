@@ -1,0 +1,22 @@
+.mainLayout {
+  display: flex;
+  height: 100vh;
+  background: var(--darkest);
+}
+
+.mainLayout__col {
+  flex: 1;
+  padding: 2rem;
+  background: var(--darker);
+  box-shadow: inset 0 0 10px var(--shadow);
+  border-radius: 10px;
+}
+
+.mainLayout__col:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.mainLayout__col:hover {
+  background: linear-gradient(135deg, var(--dark), var(--darker));
+  transition: background 0.3s ease;
+}

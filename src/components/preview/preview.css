@@ -1,0 +1,32 @@
+.preview {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--darkest);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px var(--shadow);
+  padding: 1rem;
+}
+
+.preview__scroll {
+  overflow-y: auto;
+  flex-grow: 1;
+  background: var(--darker);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: inset 0 0 10px var(--shadow);
+  color: var(--text-light);
+}
+
+.preview__scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.preview__scroll::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+.preview__scroll::-webkit-scrollbar-track {
+  background: var(--darker);
+}
